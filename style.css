@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fef9a7;
+  padding: 12px;
+  gap: 15px;
+}
+
+#logo {
+  font-family: "Lobster Two", cursive;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
+}
+
+.menu {
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  --s: 0.1em; /* the thickness of the line */
+  --c: #1095c1; /* the color */
+
+  color: #0000;
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.menu:hover {
+  --_p: 100%;
+}
+
+.row {
+  width: auto;
+  margin: 0%;
+}
+
+#texto-inicio {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Poiret One", cursive;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#subtitle {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+
+#imagem-inicio {
+  padding: 0;
+}
+
+#img1 {
+  width: 100%;
+}
