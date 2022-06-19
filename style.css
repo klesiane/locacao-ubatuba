@@ -4,13 +4,12 @@
   text-decoration: none;
 }
 
-header {
+#nav {
+  background-color: #fef9a7;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fef9a7;
-  padding: 12px;
   gap: 15px;
 }
 
@@ -20,12 +19,7 @@ header {
   font-size: 30px;
 }
 
-nav {
-  display: flex;
-  gap: 32px;
-}
-
-.menu {
+#menu {
   font-family: "Poiret One", cursive;
   font-size: 18px;
   font-weight: 400;
@@ -43,13 +37,14 @@ nav {
   background-clip: text, padding-box;
   transition: 0.5s;
 }
-.menu:hover {
+#menu:hover {
   --_p: 100%;
 }
 
 .row {
   width: auto;
   margin: 0%;
+  height: 100vh;
 }
 
 #texto-inicio {
@@ -77,4 +72,5 @@ nav {
 
 #img1 {
   width: 100%;
+  height: 100vh;
 }
