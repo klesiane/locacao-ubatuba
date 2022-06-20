@@ -4,13 +4,12 @@
   text-decoration: none;
 }
 
-header {
+#nav {
+  background-color: #fef9a7;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fef9a7;
-  padding: 12px;
   gap: 15px;
 }
 
@@ -20,12 +19,7 @@ header {
   font-size: 30px;
 }
 
-nav {
-  display: flex;
-  gap: 32px;
-}
-
-.menu {
+#menu {
   font-family: "Poiret One", cursive;
   font-size: 18px;
   font-weight: 400;
@@ -43,13 +37,14 @@ nav {
   background-clip: text, padding-box;
   transition: 0.5s;
 }
-.menu:hover {
+#menu:hover {
   --_p: 100%;
 }
 
 .row {
   width: auto;
   margin: 0%;
+  height: 100vh;
 }
 
 #texto-inicio {
@@ -77,4 +72,58 @@ nav {
 
 #img1 {
   width: 100%;
+  height: 100vh;
+}
+
+#apresentacao {
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fac013c0;
+}
+
+#secao1-part1 {
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  gap: 20px;
+}
+
+#img-entrada {
+  width: 55%;
+}
+
+#secao1-part2 {
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  gap: 20px;
+}
+
+#img-varanda {
+  width: 55%;
+}
+
+#contato {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 15px;
+}
+
+#texto-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 12px;
 }
