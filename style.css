@@ -127,3 +127,11 @@ h1 {
 h2 {
   font-size: 12px;
 }
+
+#tit-localizacao {
+  font-family: 'Poiret One', cursive;
+  font-weight: 800;
+  font-size: 28px;
+  color: #D61C4E;
+  padding: 15px;
+}
